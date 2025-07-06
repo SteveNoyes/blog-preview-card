@@ -7,7 +7,6 @@
 - [My process](#my-process)
   - [Built with](#built-with)
   - [Highlights](#hightlights)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
 
 ## Overview
@@ -20,8 +19,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
-![](./screenshot.jpg)
+![](./assets/images/Screenshot%202025-07-06%20160641.png)
 
 ### Links
 
@@ -41,23 +39,40 @@ Users should be able to:
 ### Hightlights
 
 ```html
-<h1>Some HTML code</h1>
+  <div class="blog-preview-wrapper">
+    <img src="./assets/images/illustration-article.svg" alt="Abstract Code on a Yellow Background">
+    <div class="category">Learning</div>
+    <p class="pub-date">Published 21 Dec 2023</p>
+    <h2>HTML & CSS foundations</h2>
+    <p class="description">These languages are the backbone of every website, defining structure, content, and presentation.</p>
+    <div class="author-info">
+      <img src="./assets/images/image-avatar.webp" alt="Author Profile Picture">
+      <p>Greg Hooper</p>
+    </div>
+  </div>
 ```
+
 ```css
-.this-css {
-  border: 1px solid red;
-}
-```
-```js
-const isFunc = () => {
-  console.log('Hello World')
-}
-```
+  @font-face {
+    font-family: 'Figtree Extra Bold';
+    src: url('../fonts/Figtree-ExtraBold.woff2') format('woff2'),
+        url('../fonts/Figtree-ExtraBold.woff') format('woff'),
+        url('../fonts/Figtree-ExtraBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+  }
 
-### Useful resources
-
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+  @font-face {
+    font-family: 'Figtree Medium';
+    src: url('../fonts/Figtree-Medium.woff2') format('woff2'),
+        url('../fonts/Figtree-Medium.woff') format('woff'),
+        url('../fonts/Figtree-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+  }
+```
 
 ## Author
 
