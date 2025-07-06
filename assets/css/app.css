@@ -91,6 +91,11 @@ body {
   margin-bottom: 20px;
 }
 
+.blog-preview-wrapper h2:hover {
+  cursor: pointer;
+  color: var(--yellow);
+}
+
 .description {
   font-family: 'Figtree Medium';
   font-size: 14px;
